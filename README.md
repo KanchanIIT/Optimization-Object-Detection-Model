@@ -2,6 +2,13 @@
 Convert your yolov3-tiny model to trt model.
 Most of the SOTA object detection model are too heavy to deploy in production for real time application. We optimize the most popular one stage detector YOLOV3 for deployment on NVIDIA Jetson Nano Developer Kit. Reduces model size by 40% and throughput increased by 2X without compromising the accuracy.
 
+## Examples
+
+
+Before Optimization            |  After Optimization
+:-------------------------:|:-------------------------:
+![Before Optimization](images/before.gif?  "RBefore Optimization")  |   ![After Optimization](images/after.gif? "After Optimization")
+
 
 # device: nvidia jetson tx2
 
